@@ -1,0 +1,28 @@
+Variable,DataType,Description,MissingValues
+customerID,str,Identitas unik pelanggan,0
+gender,str,Jenis kelamin pelanggan,0
+SeniorCitizen,int64,Indikator pelanggan senior (0/1),0
+Partner,str,Status memiliki pasangan,0
+Dependents,str,Status memiliki tanggungan,0
+tenure,int64,Lama berlangganan dalam bulan,0
+PhoneService,str,Status layanan telepon,0
+MultipleLines,str,Status layanan beberapa saluran telepon,0
+InternetService,str,Jenis layanan internet,0
+OnlineSecurity,str,Status layanan keamanan online,0
+OnlineBackup,str,Status layanan pencadangan online,0
+DeviceProtection,str,Status perlindungan perangkat,0
+TechSupport,str,Status dukungan teknis,0
+StreamingTV,str,Status layanan streaming TV,0
+StreamingMovies,str,Status layanan streaming film,0
+Contract,str,Jenis kontrak pelanggan,0
+PaperlessBilling,str,Status tagihan tanpa kertas,0
+PaymentMethod,str,Metode pembayaran,0
+MonthlyCharges,float64,Biaya bulanan pelanggan,0
+TotalCharges,float64,Akumulasi tagihan pelanggan,0
+Churn,str,Status churn: Yes atau No,0
+ChurnBinary,int64,"Status churn numerik: Yes=1, No=0",0
+TenureGroup,category,Kelompok lama berlangganan,0
+NumAdditionalServices,int64,Jumlah layanan tambahan aktif,0
+NumTotalServices,int64,Jumlah komponen layanan aktif,0
+HasLongTermContract,int64,Indikator kontrak jangka panjang,0
+MonthlyChargeGroup,category,Kelompok kuartil biaya bulanan,0
